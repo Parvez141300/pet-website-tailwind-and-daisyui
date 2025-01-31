@@ -169,7 +169,7 @@
   <!-- header section end  -->
 
   <!-- main section start  -->
-  <main class="container mx-auto">
+  <main class="container mx-auto mb-[370px] md:mb-80 lg:mb-60">
     <!-- trending section start  -->
     <section class="bg-pets-primary-bg">
       <div class="w-10/12 mx-auto my-8  lg:my-24 py-24">
@@ -302,12 +302,94 @@
       </div>
     </section>
     <!-- trending section end  -->
+
+    <!-- everyday low price section start  -->
+    <section class="w-10/12 mx-auto my-8 lg:my-24 py-24">
+      <h3 class="font-adlam-display mb-11 text-4xl">Trending Pet Products</h3>
+      <div class="flex flex-col gap-5 lg:flex lg:flex-row md:gap-5">
+        <div
+          class="flex items-center justify-between lg:w-3/5 bg-gradient-to-br from-[#F8CCFB] to-[#ACD2FD] rounded-xl">
+          <div class="px-10 py-10 lg:py-0 space-y-4">
+            <h5 class="text-black">Under Price</h5>
+            <h4 class="font-adlam-display text-black text-2xl">Pet Grooming Mitt</h4>
+            <p class="font-adlam-display text-white ">(Easy Hair Removal)</p>
+            <h1 class="text-black text-5xl font-adlam-display">$7.99</h1>
+          </div>
+          <div>
+            <img src="c1-assets/cute-dog-mid.png" alt="">
+          </div>
+        </div>
+
+        <div class="lg:w-2/5 bg-gradient-to-br from-[#FFF9F4] to-[#F9DF8A] rounded-xl">
+          <div class="px-10 pt-10 space-y-4">
+            <h4 class="font-adlam-display text-black text-2xl">Pet Grooming Mitt</h4>
+            <h1 class="text-button-primary-bg text-5xl font-adlam-display">$7.99</h1>
+          </div>
+          <div class="flex justify-end">
+            <img class="relative -top-14 w-2/3" src="c1-assets/cute-pet-mid.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- everyday low price section end  -->
   </main>
   <!-- main section end  -->
 
   <!-- footer section start  -->
-  <footer>
-
+  <footer class="bg-[#F9DF8A]">
+    <section class="container mx-auto">
+      <div class="w-10/12 mx-auto py-24">
+        <!-- footer bottom newsletter start  -->
+        <div class="bg-pets-primary-bg rounded-xl -mt-[500px] md:-mt-96 lg:-mt-80 mb-28">
+          <div class="">
+            <div class="flex flex-col lg:flex-row items-center">
+              <div class="py-7 px-10 md:py-9 md:px-20">
+                <img src="c1-assets/cute-pet-mid.png" alt="">
+              </div>
+              <div class="">
+                <form class="card-body space-y-3">
+                  <h2 class="text-black text-2xl md:text-4xl text-center md:text-left font-adlam-display md:mb-5">Get Pawsome News!</h2>
+                  <p class="text-black text-center md:text-left ">Exclusive training tips, ticks, product deals and more.</p>
+                  <div class="md:my-9">
+                    <input type="email" placeholder="Enter email..." class="input input-bordered  md:w-96" required />
+                  </div>
+                  <div class="">
+                    <button class="btn bg-button-primary-bg py-2 px-7">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- footer bottom newsletter end  -->
+        <div class="flex flex-wrap flex-col gap-8 md:flex-row md:justify-between">
+          <div class="space-y-7">
+            <div class="flex gap-4 items-center">
+              <img src="c1-assets/logo-footer.png" alt="">
+              <h4 class="text-black text-2xl">Browse4Pets</h4>
+            </div>
+            <p class="text-black">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
+          </div>
+          <div>
+            <ul class="space-y-8 text-black">
+              <li>Find a pet</li>
+              <li>Breeds</li>
+              <li>Contact us</li>
+            </ul>
+          </div>
+          <div class="space-y-4 flex flex-col justify-end">
+            <p class="text-black">Follow Us</p>
+            <!-- icons  -->
+             <div class="flex gap-7 text-2xl">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-youtube"></i>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </footer>
   <!-- footer section end  -->
 </body>
